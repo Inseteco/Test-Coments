@@ -9,16 +9,16 @@ new Vue ({
   },
 
   methods: {
-
-    addText(){
+    addText() {
      if (this.newComent != '') {
         this.coments.push(this.newComent);
         this.newComent = ''
-      }
-    },
-    deleteCom(id){
-      this.coments.splice(id, 1);
      }
+    },
+    
+    deleteCom(id) {
+      this.coments.splice(id, 1);
+    }
   }  
 })
 
